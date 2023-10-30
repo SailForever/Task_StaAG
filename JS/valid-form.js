@@ -100,4 +100,8 @@ function validateFirstF(eo) {
   if (errorsAll) {
     eo.preventDefault();
   }
+  else {
+    eo.preventDefault();
+    window.open('./thanks.html', '_self')
+  }
 }

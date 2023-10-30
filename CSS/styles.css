@@ -786,3 +786,18 @@ li {
   letter-spacing: .025em;
   line-height: 1.1em;
 }
+.about-thanks__items {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: flex-start;
+  padding: 180px 20px 180px 20px;
+  margin: 0 auto;
+  grid-gap: 20px;
+  font-family: "Plantin Light", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3em;
+  letter-spacing: .025em;
+  line-height: 1.1em;
+}
