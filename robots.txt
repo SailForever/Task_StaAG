@@ -1,0 +1,13 @@
+User-agent: Yandex
+Allow: /Images/
+Allow: /SVG/
+
+User-agent: Googlebot
+Allow: /Images/
+Allow: /SVG/
+
+Sitemap: https://sailforever.github.io/Task_StaAG/sitemap.xml
+
+User-agent: *
+Allow: /Images/
+Allow: /SVG/
