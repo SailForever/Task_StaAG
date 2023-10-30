@@ -692,3 +692,71 @@ body {
     width: 100%;
   }
 }
+
+
+
+.about-exhaust,
+.about-policy,
+.about-terms,
+.about-disclaimer,
+.about-firmware,
+.about-appearance {
+  padding: 100px 40px 0 40px;
+  max-width: 1700px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.about-exhaust h1,
+.about-policy h1,
+.about-terms h1,
+.about-disclaimer h1,
+.about-firmware h1,
+.about-appearance h1 {
+  text-decoration: none;
+  color: black;
+  font-family: "Oak Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  text-align: center;
+}
+
+.about-exhaust h3,
+.about-policy h3,
+.about-terms h3,
+.about-disclaimer h3,
+.about-firmware h3,
+.about-appearance h3 {
+  text-decoration: none;
+  color: black;
+  font-family: "Plantin Light", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4em;
+  letter-spacing: .03em;
+}
+
+.about-terms a,
+.about-disclaimer a {
+
+  color: black;
+}
+
+.about-exhaust p,
+li,
+.about-firmware p,
+li,
+.about-appearance p,
+li {
+  font-family: "Plantin Light", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3em;
+  letter-spacing: .025em;
+  line-height: 1.1em;
+}
