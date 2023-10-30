@@ -521,6 +521,15 @@ body {
   flex-direction: row !important;
   grid-gap: 10px;
 }
+.commit-form_privacy {
+  font-family: "Plantin Light", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  letter-spacing: .05em;
+  color: #9B9BA3;
+  transition: .8s;
+}
 
 .name-form,
 .phone-form,
@@ -726,6 +735,7 @@ body {
   text-align: center;
 }
 
+
 .about-exhaust h3,
 .about-policy h3,
 .about-terms h3,
@@ -741,6 +751,22 @@ body {
   letter-spacing: .03em;
 }
 
+@media (max-width: 400px) {
+  .about-policy h1 {
+    font-size: 1.2em;
+  }
+  .about-policy h3 {
+    font-size: 1em;
+  }
+}
+.about-policy p {
+  font-family: "Plantin Light", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1em;
+  letter-spacing: .025em;
+  line-height: 1.1em;
+}
 .about-terms a,
 .about-disclaimer a {
 
